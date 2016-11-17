@@ -1,0 +1,33 @@
+{
+  "name": "dummy-vpaid-as3",
+  "version": "0.0.1",
+  "description": "dummy-vpaid-as3 that is used for testing other vpaid with controlable error, timeout,... and so on.",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "~3.9.1"
+  },
+  "devDependencies": {
+    "lodash": "~4.13.1",
+    "vinyl-source-stream": "~1.1.0",
+    "gulp-sourcemaps": "~1.6.0",
+    "vinyl-buffer": "~1.0.0",
+    "gulp-shell": "~0.5.2",
+    "gulp-util": "~3.0.7"
+  },
+  "scripts": {
+    "test": "test",
+    "postinstall": "echo 'FlexSDK install...'; ./flexSDK.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dunght160387/dummy-vpaid-as3.git"
+  },
+  "keywords": [
+    "dummy-vpaid-as3"
+  ],
+  "author": "Ha The Dzung <dunght1603@gmail.com> (https://github.com/dunght160387/browsermob-proxy-runner)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dunght160387/dummy-vpaid-as3/issues"
+  }
+}
